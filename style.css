@@ -1,0 +1,36 @@
+.navigation {
+    background-color: #607274;
+    color: #FAEED1;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-family: lucida sans;
+}
+
+
+.navigationmenu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+}
+
+.navigationlinks {
+    text-decoration: none;
+    color: #FAEED1;
+
+}
+
+.btn {
+    background: hsl(200, 50%, 50%);
+    color: white;
+    border: none;
+    padding: 0.5em 0.75em;
+    border-radius: 0.25em;
+    cursor: pointer;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    background: hsl(200, 50%, 60%);
+  }
