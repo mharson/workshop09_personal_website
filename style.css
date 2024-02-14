@@ -1,26 +1,99 @@
+/* Navigation Bar Format*/
+
 .navigation {
-    background-color: #607274;
-    color: #FAEED1;
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    font-family: lucida sans;
+  background-color: #607274;
+  color: #faeed1;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
 }
 
-
 .navigationmenu {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 22px;
 }
 
 .navigationlinks {
-    text-decoration: none;
-    color: #FAEED1;
-
+  text-decoration: none;
+  color: #faeed1;
 }
 
+/* Home Page Format*/
+
+.container {
+  display: flex;
+  background-color: #faeed1;
+}
+
+.missionstatement {
+  display: flex;
+  font-size: 22px;
+  padding-top: 30px;
+  text-align: center;
+  color: #607274;
+  font-family: sans-serif;
+}
+
+.homephoto {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.quote {
+  font-size: 35px;
+  padding-top: 30px;
+  text-align: center;
+  color: #607274;
+}
+
+/* About Page Format*/
+
+.aboutme {
+  font-size: 22px;
+  padding-top: 30px;
+  text-align: center;
+  color: #607274;
+  font-family: sans-serif;
+}
+
+.aboutmecontainer {
+  display: flex;
+}
+
+.funfacts {
+  font-size: 15px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: left;
+  background-color: #607274;
+  color: #faeed1;
+  font-family: sans-serif;
+}
+
+.slides {
+  display: flex;
+  background: #607274;
+}
+
+/* Portfolio Page Format*/
+
+.Picassopainting {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/* Notes for Later to add linked in Buttnon
 .btn {
     background: hsl(200, 50%, 50%);
     color: white;
@@ -29,8 +102,9 @@
     border-radius: 0.25em;
     cursor: pointer;
   }
-  
+ 
   .btn:hover,
   .btn:focus {
     background: hsl(200, 50%, 60%);
   }
+  */
